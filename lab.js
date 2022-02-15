@@ -198,7 +198,16 @@ var user = {
 */
 
 //Code here
+class Cat {
+  constructor(name, age, color) {
+    this.name = name
+    this.age = age
+    this.color = color
+  }
+}
+let tabby = new Cat("Fluffy", 7, "grey")
 
+// console.log(tabby.name)
 
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
