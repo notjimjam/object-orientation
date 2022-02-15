@@ -271,6 +271,7 @@ class Phone{
   }
   sell() {
     console.log(`${this.brand} ${this.model} has been sold.`)
+    this.sold = true
   }
   changePrice(newPrice) {
     if(this.sold === false){
@@ -290,7 +291,9 @@ class Phone{
 */
 
 //Code Here
-
+let phone1 = new Phone("Apple", "iPhone", 256, "blue", 1000)
+let phone2 = new Phone("Samsung", "Galaxy", 256, "black", 950)
+let phone3 = new Phone("Motorola", "Razr", 32, "hot pink", 250)
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -299,8 +302,9 @@ class Phone{
 */ 
 
 //Code Here 
+phone2.changePrice(899)
 
-
+// console.log(phone2)
 /*
   Now call the sell method on one of your other phone objects
 
@@ -308,7 +312,8 @@ class Phone{
 */
 
 //Code Here 
-
+// phone3.sell()
+// console.log(phone3)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
