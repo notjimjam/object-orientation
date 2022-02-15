@@ -179,7 +179,8 @@ var user = {
 */
 
 //Code Here
-
+user.name = "Bryan G. Smith"
+user.email = "bryan.smith@devmounta.in"
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -187,7 +188,8 @@ var user = {
 */
 
 //Code Here
-
+delete user.age
+// console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -259,7 +261,7 @@ let wizard1 = new Wizard("Hermione", 16, "Leviosa")
 */
 
 //Code Here
-
+// class Phone
   
 /*
     Next make three new phone instances using your class.
