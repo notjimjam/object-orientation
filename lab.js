@@ -221,6 +221,18 @@ let tabby = new Cat("Fluffy", 7, "grey")
 */
 
 //Code here
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name
+    this.age = age
+    this.favoriteSpell = favoriteSpell
+  }
+  castSpell() {
+    console.log(`${this.name} has cast ${this.favoriteSpell}`)
+  }
+}
+let wizard1 = new Wizard("Hermione", 16, "Leviosa")
+// wizard1.castSpell()
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
