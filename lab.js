@@ -1,11 +1,15 @@
 //////////////////////////// PROBLEM 1 ////////////////////////////
 /*
   Create an object called me.
-  Give it a key of name with the value being your name, and another key of age with the value being your age.
+  Give it a key of name with the value being your name, and another key of age with the value 
+  being your age.
 */
 
 //Code here
-
+ const me = {
+   name : "Jamie",
+   age : 26,
+ }
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -16,46 +20,67 @@
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+const dog = {
+  name: "Toby",
+  color: "Golden",
+  age: 2,
+  goodBoy: true
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+// console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+// console.log(dog['color'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
+  Make a 'favoriteThings' object that contains the following keys: 
+  band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
 //Code here
-
+const favoriteThings = {
+  band: "Imagine Dragons",
+  food: "Burgers",
+  person: "Jes",
+  book: "Six of Crows",
+  movie: "Shrek",
+  holiday: "Christmas"
+}
 
 /*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+  After you've made your object, use bracket or dot notation to add another key named 'car' 
+  with the value being your favorite car and then another key named 'show' with the value 
+  being your favorite show.
 */
 
 //Code here
-
+favoriteThings.car = "Ford Bronco"
+favoriteThings.show = "Black Mirror"
 
 /*
-  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
+  Now use bracket or dot notation to change the value of the food key in your favoriteThings object 
+  to be 'Chicken Nuggets'
+  and change the value of the book key in your favoriteThings object to be 'Harry Potter'. 
+  (If they were either of those things already, change them to something else.)
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings['book'] = "Harry Potter"
 
+// console.log(favoriteThings)
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -73,7 +98,12 @@ var carDetails = {
 */
 
 //Code Here
+// const {color} = carDetails
+// const {make} = carDetails
+// const {model} = carDetails
+// const {year} = carDetails
 
+const {color, make, model, year} = carDetails
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -153,7 +183,8 @@ var user = {
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
-  Create a class called 'Cat'. Make sure to call your constructor, and require these 3 parameters: name, age, color.
+  Create a class called 'Cat'. Make sure to call your constructor, and require these 3 parameters: 
+  name, age, color.
   Outside of your class, create an instance of your cat, passing in whatever values you would like.
   Print the name of your cat instance using dot notation.
 */
@@ -164,8 +195,10 @@ var user = {
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
-  Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: name, age, favoriteSpell.
-  Add a function to your Wizard class called castSpell. This function should print "{name} has cast {favoriteSpell}"
+  Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: 
+  name, age, favoriteSpell.
+  Add a function to your Wizard class called castSpell. This function should print "{name} has cast 
+  {favoriteSpell}"
   Outside of your class, create an instance of your Wizard, passing in whatever values you would like.
   Call the castSpell function on the instance of your wizard.
 */
@@ -186,7 +219,8 @@ var user = {
     and it won't be sold yet. 
 
     Create a method called 'sell'.
-    sell should be a function that changes the value of sold to true and prints the string: '{brand} {model} has been sold.'
+    sell should be a function that changes the value of sold to true and prints the string: 
+    '{brand} {model} has been sold.'
     
     Create another method called 'changePrice'. We can use this 
     to change the price in case a phone isn't selling.
@@ -234,7 +268,8 @@ var user = {
 /*
   Use the spread operator to create a copy of the colors object below.
   Store the copy in a variable called colorsCopy.
-  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. Challenge yourself by going online and researching what the spread operator is and how to use it.
+  Note: We did not cover the spread operator in class. We do not expect you to know how to use it. 
+  Challenge yourself by going online and researching what the spread operator is and how to use it.
 */
 
 //do not edit this object
