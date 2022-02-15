@@ -261,7 +261,23 @@ let wizard1 = new Wizard("Hermione", 16, "Leviosa")
 */
 
 //Code Here
-// class Phone
+class Phone{
+  constructor(brand, model, storage, color, price){
+  this.brand = brand
+  this.model = model
+  this.storage = color
+  this.price = price
+  this.sold = false
+  }
+  sell() {
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+  changePrice(newPrice) {
+    if(this.sold === false){
+      this.price = newPrice
+    }
+  }
+}
   
 /*
     Next make three new phone instances using your class.
